@@ -1,1 +1,57 @@
+<!DOCTYPE html>
 
+<html>
+    <head>
+        <title>InputReview</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+        <!-- Add HTML markup elements for your web site below -->
+        <h2>Review your class!</h2>
+
+        <form>
+            <label>Name:</label>
+            <input name = "name" id = "name" type = "text">
+            <br><br>
+            
+            <label>Class:</label>
+            <input name = "class" id = "class" type = "text">
+            <br><br>
+
+            <label>Teacher:</label>
+            <input name = "teacher" id = "teacher" type = "text">
+            <br><br>
+            
+            <label>Rating:</label>
+            <!--input name = "rating" id = "rating" type = "text"-->
+
+
+
+            <span onclick="update(1)"
+            class="star">★
+      </span>
+      <span onclick="update(2)"
+            class="star">★
+      </span>
+      <span onclick="update(3)"
+            class="star">★
+      </span>
+      <span onclick="update(4)"
+            class="star">★
+      </span>
+      <span onclick="update(5)"
+            class="star">★
+      </span>
+
+
+
+            <p>Type your review below!</p>
+            <textarea type="text" name="review" id = "review" rows = 10 cols = 40></textarea>
+            <br><br>
+            <button type = "submit">Submit</button>
+        </form>
+        <div></div>
+    </body>
+</html>

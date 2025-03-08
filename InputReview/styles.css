@@ -1,0 +1,53 @@
+/* Add CSS styles for your web site here and use them in index.html. */
+body{
+    background-color:honeydew;
+    padding:25px 50px 50px 50px;
+}
+h2{
+    background-color:darkseagreen;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+
+}
+form{
+    background-color:darkseagreen;
+    padding: 10px 15px 10px 20px;
+    border-radius: 10px;
+
+}
+input{
+    background-color:honeydew;
+    border-radius: 5px;
+
+}
+label{
+    padding-right: 5px;
+
+}
+textarea{
+    border-radius: 5px;
+}
+.star{
+    font-size: 4vh;
+    cursor: pointer;
+}
+
+.one {
+    color: rgb(255, 0, 0);
+  }
+   
+  .two {
+    color: rgb(255, 106, 0);
+  }
+   
+  .three {
+    color: rgb(251, 255, 120);
+  }
+   
+  .four {
+    color: rgb(255, 255, 0);
+  }
+   
+  .five {
+    color: rgb(24, 159, 14);
+  }
